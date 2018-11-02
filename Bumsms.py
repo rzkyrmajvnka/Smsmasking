@@ -32,17 +32,6 @@ class color:
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-def banner():
-	print color.OKGREEN+"    /     \ "
-	print "  \/ \---/ \/"
-	print "   \/\   /\/   "+color.DARKCYAN+"SMS"
-	print color.OKGREEN+"   ( "+color.RED+"0"+color.OKGREEN+"\ /"+color.RED+"0 "+color.OKGREEN+") "+color.DARKCYAN+"MASKING"
-	print color.OKGREEN+"    \_/|\_/"
-	print "    /-\|/-\ "
-	print "   /  oVo  \ "
-	print "  (_/\ _ /\_)"
-	print "   (__V_V__) "+color.DARKCYAN+"Author: "+color.RED+"4WSec\n"
-
 
 def masking():
 	print
