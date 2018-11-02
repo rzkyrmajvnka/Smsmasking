@@ -38,7 +38,7 @@ def masking():
 	try:
 		no=open(wutz,'r').readlines()
 	except:
-		print ""+ color.RED +"[!]"+ color.WARNING +" Failed To Open> %s"%(wutz)
+		
 		sys.exit()
 	print "\n"+ color.YELLOW +"[*]"+ color.END +" Total Target>"+ color.WARNING +"",len(no)
 	no_count=len(no)
